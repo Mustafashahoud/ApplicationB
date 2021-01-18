@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.android.mustafa.applicationb">
 
-    <uses-permission android:name="com.android.mustafa.applicationa.provider.READ_WRITE"/>
+    <uses-permission android:name="com.android.mustafa.applicationa.provider.READ"/>
 
     <application
         android:allowBackup="false"

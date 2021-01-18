@@ -30,11 +30,9 @@ object BuildPlugins {
 
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Versions.buildToolsVersion}"
     const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Kotlin.standardLibrary}"
-    const val serializationPlugin = "org.jetbrains.kotlin.plugin.serialization"
     const val androidApplication = "com.android.application"
     const val kotlinAndroid = "kotlin-android"
     const val kotlinKapt = "kotlin-kapt"
-    const val kotlinAndroidExtensions = "kotlin-android-extensions"
 }
 
 object Libraries {

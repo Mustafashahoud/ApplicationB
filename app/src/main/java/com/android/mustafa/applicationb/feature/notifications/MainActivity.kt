@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                         id = cursor.getLong(cursor.getColumnIndexOrThrow(COLUMN_ID)),
                         title = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_TITLE)),
                         message = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_MESSAGE)),
-                        time = TimeUtils().getTimeInTimeAgoPattern(
+                        time = TimeUtils.getTimeInTimeAgoPattern(
                             cursor.getLong(cursor.getColumnIndexOrThrow(COLUMN_TIME))
                         ),
                         category = NotificationUtils.getNotificationCategory(

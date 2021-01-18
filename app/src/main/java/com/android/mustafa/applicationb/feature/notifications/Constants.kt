@@ -24,8 +24,9 @@ object Constants {
     const val COLUMN_TIME = "time"
 
     /** The authority of this content provider.  */
-    const val AUTHORITY = "com.android.mustafa.applicationa.provider"
-    const val TABLE_NAME = "notifications"
+    private const val AUTHORITY = "com.android.mustafa.applicationa.provider"
+
+    private  const val TABLE_NAME = "notifications"
 
     const val LOADER_NOTIFICATION = 1
 

@@ -1,6 +1,6 @@
 package com.android.mustafa.applicationb.core.util
 
-class TimeUtils {
+object TimeUtils {
 
 
     fun getTimeInTimeAgoPattern(time: Long): String {
