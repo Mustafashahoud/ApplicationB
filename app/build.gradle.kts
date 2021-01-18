@@ -53,7 +53,6 @@ dependencies {
     implementation(Libraries.ktxCore)
     implementation(Libraries.activity)
     implementation(Libraries.constraintLayout)
-//    implementation(Libraries.localBroadcastManager)
     implementation(Libraries.material)
 
     // Development dependencies
